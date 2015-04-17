@@ -29,4 +29,4 @@ script: |-
   sudo apt-get update
   sudo apt-get install gradle -y
   # --- Install goplay
-  curl https://github.com/naa-aasat/goplay/releases/download/v0.1.3/goplay-v0.1.3-linux-amd64.tar.gz | sudo tar -zxv -C /usr/local/bin/ goplay
+  curl -L https://github.com/naa-aasat/goplay/releases/download/v0.1.3/goplay-v0.1.3-linux-amd64.tar.gz | sudo tar -zxv -C /usr/local/bin/ goplay
